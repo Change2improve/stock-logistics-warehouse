@@ -1,0 +1,18 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_request_user,stock request user,model_stock_request,group_stock_request_user,1,1,1,
+access_stock_request_manager,stock request manager,model_stock_request,group_stock_request_manager,1,1,1,1
+access_stock_picking_salesman,stock_picking salesman,stock.model_stock_picking,group_stock_request_user,1,1,1,0
+access_stock_move_salesman,stock_move salesman,stock.model_stock_move,group_stock_request_user,1,1,1,0
+access_stock_move_manager,stock_move manager,stock.model_stock_move,group_stock_request_manager,1,1,1,1
+access_stock_picking_sales,stock.picking.sales,stock.model_stock_picking,group_stock_request_manager,1,1,1,1
+access_product_packaging_user,product.packaging.user,product.model_product_packaging,group_stock_request_user,1,1,1,0
+access_product_packaging_manager,product.packaging.manager,product.model_product_packaging,group_stock_request_manager,1,0,0,0
+access_stock_warehouse_user,stock.warehouse.user,stock.model_stock_warehouse,group_stock_request_user,1,0,0,0
+access_stock_location_user,stock.location.user,stock.model_stock_location,group_stock_request_user,1,0,0,0
+access_product_packaging_sale_manager,product.packaging salemanager,product.model_product_packaging,group_stock_request_manager,1,1,1,1
+access_stock_warehouse_orderpoint_sale_salesman,stock.warehouse.orderpoint,stock.model_stock_warehouse_orderpoint,group_stock_request_user,1,0,0,0
+access_stock_location_sale_manager,stock.location sale manager,stock.model_stock_location,group_stock_request_manager,1,0,0,0
+access_procurement_rule_salemanager,procurement_rule salemanager,stock.model_procurement_rule,group_stock_request_manager,1,1,1,1
+access_stock_location_path_sale_manager,stock.location.path partner salemanager,stock.model_stock_location_path,group_stock_request_manager,1,1,1,1
+access_stock_location_path,stock.location.path,stock.model_stock_location_path,group_stock_request_user,1,0,0,0
+access_procurement_rule,procurement.rule.flow,stock.model_procurement_rule,group_stock_request_user,1,0,0,0
