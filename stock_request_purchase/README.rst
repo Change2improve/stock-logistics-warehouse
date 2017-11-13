@@ -2,9 +2,9 @@
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
-============================
-Procurement Request Purchase
-============================
+======================
+Stock Request Purchase
+======================
 
 This module allows for users to be able to display purchase orders that have
 been created as a consequence of Stock Requests.
