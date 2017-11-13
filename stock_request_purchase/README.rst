@@ -6,25 +6,37 @@
 Procurement Request Purchase
 ============================
 
-This module was written to allow users to request products that are
-frequently stocked by the company, to be transferred to their chosen location.
-
-
-Configuration
-=============
+This module allows for users to be able to display purchase orders that have
+been created as a consequence of Stock Requests.
 
 
 Usage
 =====
 
+In case that the confirmation of the Stock Request results in an immediate
+Purchase Order, the user will be able to display the PO's from the Stock
+Request form view.
+
+
+.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
+   :alt: Try me on Runbot
+   :target: https://runbot.odoo-community.org/runbot/153/11.0
+
 
 Known issues / Roadmap
 ======================
 
+* When a Stock Request is cancelled, it does not cancel the quantity included
+  in the Purchase Order.
 
 
 Bug Tracker
 ===========
+
+Bugs are tracked on `GitHub Issues
+<https://github.com/OCA/stock-logistics-warehouse/issues>`_. In case of
+trouble, please check there if your issue has already been reported. If you
+spotted it first, help us smash it by providing detailed and welcomed feedback.
 
 
 Credits

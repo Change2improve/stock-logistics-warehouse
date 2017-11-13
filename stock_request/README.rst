@@ -2,9 +2,9 @@
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
-===================
-Procurement Request
-===================
+=============
+Stock Request
+=============
 
 This module was written to allow users to request products that are
 frequently stocked by the company, to be transferred to their chosen location.
@@ -13,19 +13,43 @@ frequently stocked by the company, to be transferred to their chosen location.
 Configuration
 =============
 
+Users should be assigned to the groups 'Stock Request / User' or 'Stock
+Request / Manager'.
+
 
 Usage
 =====
 
+Creation
+--------
+* Go to 'Stock Requests / Stock Requests' and create a new Request.
+* Indicate a product, quantity and location.
+* Press 'Confirm'.
 
-Known issues / Roadmap
-======================
+Upon confirmation the request will be evaluated using the procurement rules
+for the selected location.
 
+In case that transfers are created, the user will be able to access to them
+from the button 'Transfers' available in the Stock Request.
+
+Cancel
+------
+When the user cancels a Stock Request, the related pending stock moves will be
+also cancelled.
+
+
+.. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
+   :alt: Try me on Runbot
+   :target: https://runbot.odoo-community.org/runbot/153/11.0
 
 
 Bug Tracker
 ===========
 
+Bugs are tracked on `GitHub Issues
+<https://github.com/OCA/stock-logistics-warehouse/issues>`_. In case of
+trouble, please check there if your issue has already been reported. If you
+spotted it first, help us smash it by providing detailed and welcomed feedback.
 
 Credits
 =======
